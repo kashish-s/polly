@@ -1,7 +1,7 @@
 //providing access key and secret access key to polly
 AWS.config.accessKeyId = '';
 AWS.config.secretAccessKey = '';
-AWS.config.region = 'us-west-2';
+AWS.config.region = '';
 
 //creating an instance of polly
 var polly = new AWS.Polly();
